@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the page takes up the full viewport height */
+    background-color: white; /* Set the background color to black */
+    margin: 0; /* Remove default body margin */
+}
+
+.registration-form {
+    text-align: left; /* Align the content in the center */
+    background-color: white; /* Set the background color of the form */
+    padding: 10px; /* Add some padding for spacing */
+    border-radius: 10px; /* Add rounded corners to the form */
+    max-width: 416px;
+}
+
+.form-group {
+    margin-bottom: 15px; /* Add margin at the bottom of the form group */
+    border: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+    
+}
+.box{
+    border: none;
+}
+label {
+    display: block; /* Ensure labels are displayed on a new line */
+    margin-bottom: 5px; /* Add some space below the label */
+   
+}
+
+input[type="text"] {
+    width: 370px; /* Make the text input fill the entire width of its container */
+    height: 50px;
+    padding: 18px 20px; /* Add padding for better appearance */
+    margin: 0px 8px 0px 0px;
+    margin-bottom: 15px; /* Add margin below the text input */
+    border-radius: 20px;
+    display: block;
+    outline: none;
+    border-color:rgba(0,0,0,0.1);
+
+}
+input[type="text"]:hover {
+    border-color: rgba(234,100,217,0.1); /* Lighter color on hover */
+    box-shadow: 0 0 0 4px rgba(234,100,217,0.1);
+   
+}
+
+input[type="submit"] {
+    width: 50%; /* Make the submit button fill the entire width of its container */
+    padding: 10px; /* Add padding for better appearance */
+    background-color: #121315; /* Set the background color of the button */
+    color: white; /* Set the text color of the button */
+    border: none; /* Remove border */
+
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
